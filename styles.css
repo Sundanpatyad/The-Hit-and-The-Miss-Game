@@ -1,0 +1,165 @@
+body{
+    background-color: black;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+ 
+#main{
+    height: 100%;
+    width:100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 85%;
+    /* background-color: rgb(83, 144, 243);
+     */
+     background-image: linear-gradient(
+        80deg,
+        hsl(30deg 98% 67%) 0%,
+        hsl(37deg 100% 65%) 13%,
+        hsl(43deg 100% 62%) 25%,
+        hsl(49deg 100% 58%) 37%,
+        hsl(55deg 100% 50%) 50%,
+        hsl(88deg 90% 67%) 63%,
+        hsl(145deg 91% 68%) 75%,
+        hsl(173deg 100% 47%) 87%,
+        hsl(185deg 92% 60%) 100%
+      );
+    border-radius: 10px;
+   overflow:hidden;
+   
+}
+
+#ptop {
+     display: flex; 
+    /*align-items: center;
+    justify-content: center;  */
+   
+     
+    /* padding-left:10px; */
+    height: 80px;
+    width: 100%;
+    /* background-color:rgb(83, 144, 243); */
+    background-image: linear-gradient(
+        80deg,
+        hsl(30deg 98% 67%) 0%,
+        hsl(37deg 100% 65%) 13%,
+        hsl(43deg 100% 62%) 25%,
+        hsl(49deg 100% 58%) 37%,
+        hsl(55deg 100% 50%) 50%,
+        hsl(88deg 90% 67%) 63%,
+        hsl(145deg 91% 68%) 75%,
+        hsl(173deg 100% 47%) 87%,
+        hsl(185deg 92% 60%) 100%
+      );
+
+}
+#rightelement{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 53%;
+}
+
+
+#element{
+    margin: 10px;
+    display: flex;
+}
+h3{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+    justify-content: space-between;
+    padding: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+#panelbottom{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: calc(100% - 80px);
+    width: 100%;
+    /* background-color: rgb(22, 128, 234); */
+    background-image: linear-gradient(
+  80deg,
+  hsl(30deg 98% 67%) 0%,
+  hsl(37deg 100% 65%) 13%,
+  hsl(43deg 100% 62%) 25%,
+  hsl(49deg 100% 58%) 37%,
+  hsl(55deg 100% 50%) 50%,
+  hsl(88deg 90% 67%) 63%,
+  hsl(145deg 91% 68%) 75%,
+  hsl(173deg 100% 47%) 87%,
+  hsl(185deg 92% 60%) 100%
+);
+}
+#panelbottom h1{
+    font-size: 100px;
+}
+   
+.bubble{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius:50%;
+    border: 2px solid black;
+}
+.bubble:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+button{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+}
+
+
+
+
+/* HOME CSS */
+#panelbottomhome{
+    height: 80%;
+    border-radius: 10px;
+   
+    background-image: linear-gradient(
+  80deg,
+  hsl(30deg 98% 67%) 0%,
+  hsl(37deg 100% 65%) 13%,
+  hsl(43deg 100% 62%) 25%,
+  hsl(49deg 100% 58%) 37%,
+  hsl(55deg 100% 50%) 50%,
+  hsl(88deg 90% 67%) 63%,
+  hsl(145deg 91% 68%) 75%,
+  hsl(173deg 100% 47%) 87%,
+  hsl(185deg 92% 60%) 100%
+);
+}
+
+

@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width:100%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    width: 80%;
+    height: 85%;
+    background-color: rgb(34, 33, 32);
+    border-radius: 10px;
+   overflow:hidden;
+}
+#ptop{
+    align-items: center;
+    justify-content: center; 
+    display: flex; 
+     
+    /* padding-left:10px; */
+    height: 80px;
+    width: 100%;
+    background-color:rgb(83, 144, 243);
+
+}
+#element{
+    margin: 10px;
+    display: flex;
+}
+h3{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+.box{
+    font-weight: bolder;
+    color: black;
+    justify-content: space-between;
+    padding: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 238);
+}
+#panelbottom{
+    align-items: center;
+    justify-content: center;
+    color: black;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: calc(100% - 80px);
+    width: 100%;
+    background-color: rgb(22, 128, 234);
+}
+#panelbottom h1{
+    font-size: 100px;
+}
+   
+.bubble{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(195, 195, 195);
+    border-radius:50%;
+}
+.bubble:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
